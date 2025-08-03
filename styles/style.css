@@ -96,3 +96,42 @@ main{
     font-weight: bold;
     width: 517px;
 }
+
+.second-sec-title{
+    color: rgba(37, 36, 50, 1);
+    /* margin: 50px 142px; */
+    font-size: 38px;
+    font-weight: bold;
+    /* height: 45px; */
+    /* width: 856px; */
+    text-align: center;
+    margin: 0px;
+
+}
+.user-section{
+    /* margin: 116px 160px; */
+    background-color: rgba(78, 71, 255, 0.1);
+    /* width: 1140px; */
+    /* height: 306px; */
+    padding: 80px 50px;
+    border-radius: 24px;
+    margin-top: 100px;
+}
+.user-number{
+    padding: 50px 140px;
+    margin: 0px;
+}
+.user-item{
+    font-size: 80px;
+    font-weight: bold;
+    width: 170px;
+    color: #4E47FF;
+    margin: 0px;
+}
+.user-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    width: 146px;
+    margin: 0px;
+    text-align: center;
+}
