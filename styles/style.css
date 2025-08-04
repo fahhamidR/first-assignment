@@ -184,3 +184,86 @@ main{
 .review-date{
     color:rgba(179, 179, 179, 1) ;
 }
+
+
+/* focus section styles */
+.focus-section{
+    /* margin: 137px 151px; */
+    margin-top: 100px;
+    padding: 71px 150px;
+    width: 1140px;
+    height: 696px;
+    background-color: rgb(236, 241, 241);
+    border-radius: 14px;
+}
+.focus-section h3{
+    font-size: 50px;
+    font-weight: bold;
+    width: 1140px;
+    color: rgba(0, 0, 0, 1);
+    margin: 0px;
+    text-align: center;
+}
+.focus-section p{
+    width: 487px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 5px 326px;
+}
+.focus-section button{
+    margin: 20px 473px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: medium;
+    width: 200px;
+}
+.focus-section img{
+    margin: 20px 150px;
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+}
+/* form section style  */
+
+.form-section{
+    display: flex;
+    justify-content: space-around;
+    /* gap: auto; */
+    /* width: 1140px; */
+    /* height: 632px; */
+    /* padding: 71px 0px; */
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.form-section-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    width: 528px;
+    height: 232px;
+}
+.form-section input[type="email"], input[type="text"], textarea{
+    width: 497px;
+    height: 70px;
+    margin: 10px;
+    padding: 20px 32px;
+    display: block;
+    border: 1px solid gray;
+    /* background-color:gray; */
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    padding: 19px 102px;
+    color:#FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    width: 570px;
+    height: 80px;
+}
